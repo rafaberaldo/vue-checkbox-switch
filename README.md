@@ -10,6 +10,8 @@ Copy ``src/Switch.vue`` to your components folder
 
 ## Exemple
 
+![Screenshot](https://github.com/rafaelpimpa/vue-checkbox-switch/blob/master/screenshot.png)
+
 ```vue
 <template>
     <app-switch classes="is-warning" v-model="value" checked>Test</app-switch>
