@@ -1,0 +1,19 @@
+{
+  "name": "vue-checkbox-switch",
+  "version": "1.0.0",
+  "description": "A simple Vue component for checkbox's switch style",
+  "main": "src/Switch.vue",
+  "peerDependencies": {
+    "vue": ">=2"
+  },
+  "repository": "rafaelpimpa/vue-checkbox-switch",
+  "keywords": [
+    "vue",
+    "checkbox",
+    "checkbox-switch",
+    "switch-checkbox",
+    "switch"
+  ],
+  "author": "Rafael Beraldo <rafael.pimpa@gmail.com>",
+  "license": "MIT"
+}
