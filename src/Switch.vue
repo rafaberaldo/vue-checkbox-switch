@@ -33,8 +33,6 @@
 </script>
 
 <style lang="scss">
-    @import "~assets/styles/main";
-
     label.switch {
         input[type="checkbox"] {
             display: none;
