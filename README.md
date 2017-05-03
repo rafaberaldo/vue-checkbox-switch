@@ -8,7 +8,7 @@ A simple Vue component for checkbox's switch style based on [vue-bulma/switch](h
 
 Copy ``src/Switch.vue`` to your components folder
 
-## Exemple
+## Example
 
 ![Screenshot](https://github.com/rafaelpimpa/vue-checkbox-switch/blob/master/screenshot.png)
 
