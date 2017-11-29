@@ -1,6 +1,6 @@
 <template>
     <label class="switch">
-        <input :class="classes" type="checkbox" :checked="checked" :name="name" :disabled="disabled" v-model="value">
+        <input :class="classes" type="checkbox" :checked="checked" :name="name" :disabled="disabled" v-model="checked">
         <span><slot></slot></span>
     </label>
 </template>
@@ -10,26 +10,26 @@
         props: {
             disabled: Boolean,
             classes: String,
-            checked: Boolean,
+            value: Boolean,
             name: String
         },
         data() {
             return {
-                value: null
+                checked: null
             }
         },
         beforeMount() {
-            this.value = this.checked
+            this.checked = this.value
         },
         mounted() {
-            this.$emit('input', this.value)
+            this.$emit('input', this.checked)
         },
         watch: {
-            value(val) {
+            checked(val) {
                 this.$emit('input', val)
             },
-            checked (val) {
-                this.value = val
+            value (val) {
+                this.checked = val
             }
         }
     }
